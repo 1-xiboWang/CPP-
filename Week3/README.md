@@ -14,8 +14,6 @@ g++ -std=c++17 -Wall -Wextra -pedantic -g -O0 Ctype.cpp main.cpp -o lab.exe
 
 其余题在对应目录使用 `g++ -std=c++17 -Wall -Wextra -pedantic -g -O0 *.cpp -o lab.exe`。友元程序运行后输入整数，例如 `0`，依次输出 `0、1、6、16`。
 
-`编译验证` 中的六个文件是错误用例，预期编译或链接失败。其中 `05_private_access.cpp` 编译时需添加 `-I ../实验05_数据的共享与保护/05_06_friends`。
-
-运行环境：Windows、VS Code、GCC 10.3、GDB 10.2、C++17。已完成 9 组运行用例和 6 项失败编译检查；报告截图来自本次真实集成终端。
+运行环境：Windows、VS Code、GCC 10.3、GDB 10.2、C++17。
 
 课件末尾的 5-16 只有题号，没有题干。现有题目均已完成。本次文件放在 Week3 目录。
